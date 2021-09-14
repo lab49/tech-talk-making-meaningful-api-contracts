@@ -1,0 +1,32 @@
+{
+  "name": "oats-demo",
+  "scripts": {
+    "test": "jest",
+    "generate": "ts-node ./generate.ts"
+  },
+  "devDependencies": {
+    "@oats-ts/generator": "0.0.5",
+    "@oats-ts/openapi": "0.0.5",
+    "@oats-ts/openapi-api-generator": "0.0.5",
+    "@oats-ts/openapi-operations-generator": "0.0.5",
+    "@oats-ts/openapi-parameter-types-generator": "0.0.5",
+    "@oats-ts/openapi-reader": "0.0.5",
+    "@oats-ts/openapi-type-guards-generator": "0.0.5",
+    "@oats-ts/openapi-types-generator": "0.0.5",
+    "@oats-ts/openapi-validator": "0.0.5",
+    "@oats-ts/openapi-validators-generator": "0.0.5",
+    "@oats-ts/typescript-writer": "0.0.5",
+    "@types/jest": "26.0.23",
+    "@types/node": "16.7.1",
+    "jest": "27.0.4",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.2",
+    "ts-node": "^10.2.1",
+    "typescript": "4.3.5"
+  },
+  "dependencies": {
+    "@oats-ts/http": "0.0.5",
+    "@oats-ts/openapi-parameter-serialization": "0.0.5",
+    "@oats-ts/validators": "0.0.5"
+  }
+}
